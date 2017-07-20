@@ -8,7 +8,7 @@ body {
 }
 
 input {
-  width: 600px;
+  width: 80%;
   height: 40px;
   border-radius: 3px;
 }
@@ -23,13 +23,23 @@ header {
   margin: 60px 0;
 }
 
+h2 {
+  text-transform: capitalize;
+}
+
 .white-background {
-  width: 80%;
+  width: 60%;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
 }
-.content{
+
+.content {
   opacity: 1;
-    color: #333;
+  color: #333;
+}
+
+.poke-image{
+  width: 120px;
+  height: 120px;
 }
