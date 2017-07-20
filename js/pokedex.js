@@ -1,8 +1,8 @@
 
 $(document).ready(function () {
 	function addContent(pokemon) {
-		forEach(document.createElement
-
+        $('.content').empty();
+		$('.content').append('<h2>'+pokemon.name+'</h2>');
 	}
 
 	var idInput;
